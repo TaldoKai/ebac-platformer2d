@@ -150,7 +150,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 249965047}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4184ef45b6acbcc47a9e4e4cc725df3a, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -437,7 +437,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 2015319578}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4184ef45b6acbcc47a9e4e4cc725df3a, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -534,7 +534,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 7
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -553,5 +553,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myRigidbody: {fileID: 2015319582}
-  velocity: {x: 0, y: 0}
-  speed: 20
+  Friction: {x: -0.1, y: 0}
+  speed: 30
+  forceJump: 30
